@@ -72,7 +72,7 @@ public class Main {
       
       //Open and Read from the video stream  
        Mat img_matrix=new Mat();  
-       String ipaddr="http://88.53.197.250/axis-cgi/mjpg/video.cgi?resolution=320x240";
+       String ipaddr="http://67.175.82.147/axis-cgi/mjpg/video.cgi?resolution=320x240";
        VideoCapture VideoStream =new VideoCapture(ipaddr);   
    
         if( VideoStream.isOpened())  
